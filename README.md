@@ -5,7 +5,7 @@ Lomb-Scargle can be used for spectral analysis of unevenly sampled time series.
 
 ---
 
-## 📦 Installation
+## Installation
 
 You can install this package directly from GitHub:
 
@@ -44,11 +44,11 @@ P = ls(t, y, mask=mask, fap=True, norm=True)  # [B, M] array of power values
 
 ## Features
 
-- ✅ Batching: process multiple time series in parallel.
-- ✅ Masking: ignore missing or invalid observations.
-- ✅ False Alarm Probability (FAP) weighting.
-- ✅ Frequency normalization (ensures ∫P(f) df = 1).
-- ✅ Implemented in PyTorch (seamless integration into deep learning pipelines).
+- Batching: process multiple time series in parallel.
+- Masking: ignore missing or invalid observations.
+- False Alarm Probability (FAP) weighting.
+- Frequency normalization (ensures ∫P(f) df = 1).
+- Implemented in PyTorch (seamless integration into deep learning pipelines).
 
 ---
 
