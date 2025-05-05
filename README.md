@@ -3,8 +3,6 @@
 A PyTorch implementation of the Lomb-Scargle periodogram that supports batching, masking, false-alarm probability (FAP) weighting, and optional normalization.
 Lomb-Scargle can be used for spectral analysis of unevenly sampled time series.
 
----
-
 ## Installation
 
 You can install this package directly from GitHub:
@@ -12,8 +10,6 @@ You can install this package directly from GitHub:
 ```bash
 pip install git+https://github.com/asztr/LombScargle.git
 ```
-
----
 
 ## Usage
 
@@ -40,8 +36,6 @@ P = ls(t, y, mask=mask, fap=True, norm=True)  # [B, M] array of power values
 # P contains the normalized periodogram for each batch
 ```
 
----
-
 ## Features
 
 - Batching: process multiple time series in parallel.
@@ -49,8 +43,6 @@ P = ls(t, y, mask=mask, fap=True, norm=True)  # [B, M] array of power values
 - False Alarm Probability (FAP) weighting.
 - Frequency normalization (ensures ∫P(f) df = 1).
 - Implemented in PyTorch (seamless integration into deep learning pipelines).
-
----
 
 ## License
 
