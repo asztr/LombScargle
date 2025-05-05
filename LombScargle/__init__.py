@@ -1,1 +1,1 @@
-from .LombScargle import LombScargleBatchMask, LS_omegas
+from .LombScargle import LombScargle, compute_freqs
