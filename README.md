@@ -1,9 +1,12 @@
 # LombScargle
 
-[Project](https://asztr.github.io/lscd) | [Paper](https://asztr.github.io/publications/2025_lscd/2025_lscd.pdf)
+[**Project Page**](https://asztr.github.io/lscd) | [**Paper (PDF)**](https://asztr.github.io/publications/2025_lscd/2025_lscd.pdf)
 
-A PyTorch implementation of the Lomb-Scargle periodogram that supports batching, masking, false-alarm probability (FAP) weighting, and optional normalization.
-Lomb-Scargle can be used for spectral analysis of unevenly sampled time series.
+A **PyTorch implementation** of the Lomb-Scargle periodogram that supports batching, masking, false-alarm probability (FAP) weighting, and optional normalization. Lomb-Scargle can be used for spectral analysis of unevenly sampled time series. This code implements part of the paper:
+
+> **LSCD: Lomb–Scargle Conditioned Diffusion for Time Series Imputation**  
+> _International Conference on Machine Learning_ (ICML 2025).  
+> E. Fons*, A. Sztrajman*, Y. El-Laham, L. Ferrer, S. Vyetrenko, M. Veloso.
 
 ## Installation
 
