@@ -16,7 +16,7 @@ pip install git+https://github.com/asztr/LombScargle.git
 ```python
 import torch
 import numpy as np
-from lombscargle import LS_omegas, LombScargleBatchMask
+from LombScargle import LS_omegas, LombScargleBatchMask
 
 # Example: batch of two time series
 t = torch.tensor([[0.1, 0.4, 0.7, 1.0], [0.0, 0.5, 1.0, 1.5]])
