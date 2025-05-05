@@ -19,12 +19,12 @@ pip install git+https://github.com/asztr/LombScargle.git
 ## Basic Usage Example
 ```python
 import torch
-import numpy as np
+import math
 import LombScargle
 
 # Define example time series with single frequency = 5
 t = torch.linspace(0, 10.0, 200) #timestamps
-y = torch.sin(2*np.pi*5.0*t) #values
+y = torch.sin(2*math.pi*5.0*t) #values
 
 # Select frequencies to evaluate
 freqs = torch.linspace(1e-5, 10.0, 100)
