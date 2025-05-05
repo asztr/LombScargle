@@ -1,2 +1,1 @@
-from .LombScargle import LombScargleBatchMask
-
+from .LombScargle import LombScargleBatchMask, LS_omegas
