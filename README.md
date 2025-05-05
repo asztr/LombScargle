@@ -31,7 +31,7 @@ freqs = torch.linspace(1e-5, 10.0, 100)
 
 # Compute the normalized spectrum
 ls = LombScargle.LombScargle(freqs)
-P = ls(t, y, mask=mask, fap=True, norm=True)  # [1, 100] array of power values
+P = ls(t, y, fap=True, norm=True)  # [1, 100] array of power values
 ```
 
 ## Features
